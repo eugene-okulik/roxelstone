@@ -12,7 +12,7 @@ print(answer2)
 # 3rd
 c = 14
 d = 16
-answer3 = (c + d)/2
+answer3 = (c + d) / 2
 answer3again = (c * d) ** 0.5
 print(answer3)
 print(answer3again)
