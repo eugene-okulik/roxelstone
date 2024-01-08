@@ -21,9 +21,6 @@ print(answer3again)
 leg = 19
 leg2 = 11
 hypotenuse = (leg**2 + leg2**2) ** 0.5
-print("Гипотенузка : ", hypotenuse)
+print("HYPOTENUSE :", hypotenuse)
 area = a * b * 0.50
-print("Площадь : ", area)
-
-
-
+print("AREA :", area)
