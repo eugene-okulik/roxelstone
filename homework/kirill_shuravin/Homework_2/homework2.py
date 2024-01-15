@@ -1,6 +1,7 @@
-my_dict = {'tuple': '', 'list': '', 'dict': '', 'set': ''}
+my_dict = {'tuple': '', 'list': '',
+           'dict': '', 'set': ''}
 my_dict['tuple'] = (12, 'massive', False, None, '34')
-# print(my_dict['tuple'][ - 1]) ## Для Проверок!
+print(my_dict['tuple'][-1])
 
 my_dict['list'] = ['Donut', 'Soup', 'Car', 'Bread', 'Tomatoes']
 my_dict['list'].append('Watermelon')
@@ -19,7 +20,6 @@ my_dict['set'].remove('1')
 
 
 print(my_dict)
-
 # Проверка типов
 # print(type(my_dict)['tuple'])
 # print(type(my_dict)['list'])
