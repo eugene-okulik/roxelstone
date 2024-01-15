@@ -1,5 +1,4 @@
-my_dict = {'tuple': '', 'list': '',
-        'dict': '', 'set': ''}
+my_dict = {'tuple': '', 'list': '', 'dict': '', 'set': ''}
 my_dict['tuple'] = (12, 'massive', False, None, '34')
 # print(my_dict['tuple'][ - 1]) ## Для Проверок!
 
