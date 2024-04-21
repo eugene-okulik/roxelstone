@@ -49,5 +49,3 @@ subjects_str = ', '.join(subjects)
 
 my_text = f'Students {students_str} study these subjects: {subjects_str}'
 print(my_text)
-
-
