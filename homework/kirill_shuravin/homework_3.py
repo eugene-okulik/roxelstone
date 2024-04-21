@@ -16,7 +16,7 @@ program_results = 'результат операции: 42 результат о
 
 results_string = program_results.split()
 
-#Первый результат
+
 first_result = program_results[20:22]
 
 release_first_result = int(first_result) + 10
@@ -24,7 +24,7 @@ release_first_result = int(first_result) + 10
 final_first_result = (release_first_result)
 print(final_first_result)
 
-#Второй результат
+
 second_result = program_results[43:46]
 
 release_second_result = int(second_result) + 10
@@ -32,7 +32,7 @@ release_second_result = int(second_result) + 10
 final_second_result = (release_second_result)
 print(final_second_result)
 
-#Третий результат
+
 third_result = program_results[-1:]
 
 release_third_result = int(third_result) + 10
@@ -40,7 +40,7 @@ release_third_result = int(third_result) + 10
 final_third_result = (release_third_result)
 print(final_third_result)
 
-#Задача 3
+
 students = ['Ivanov', 'Petrov', 'Sidorov']
 students_str = ', '.join(students)
 print(students_str)
