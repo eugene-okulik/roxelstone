@@ -1,4 +1,3 @@
-#1 Задача
 person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 
 name = person[0]
@@ -11,7 +10,6 @@ country = person[4]
 person_result = f"{name}, {last_name}, {city}, {phone}, {country}"
 print(person_result)
 
-#2 Задача
 program_results = 'результат операции: 42 результат операции: 514 результат работы программы: 9'
 
 results_string = program_results.split()
