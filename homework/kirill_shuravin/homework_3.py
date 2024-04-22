@@ -1,47 +1,20 @@
 person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
-
-name = person[0]
-last_name = person[1]
-city = person[2]
-phone = person[3]
-country = person[4]
+name, last_name, city, phone, country = person
+print(person)
 
 
-person_result = f"{name}, {last_name}, {city}, {phone}, {country}"
-print(person_result)
+result_1 = "результат операции: 42"
+result_2 = "результат операции: 514"
+result_3 = "результат работы программы: 9"
 
-program_results = 'результат операции: 42 результат операции: 514 результат работы программы: 9'
-
-results_string = program_results.split()
-
-
-first_result = program_results[20:22]
-
-release_first_result = int(first_result) + 10
-
-final_first_result = (release_first_result)
-print(final_first_result)
-
-
-second_result = program_results[43:46]
-
-release_second_result = int(second_result) + 10
-
-final_second_result = (release_second_result)
-print(final_second_result)
-
-
-third_result = program_results[-1:]
-
-release_third_result = int(third_result) + 10
-
-final_third_result = (release_third_result)
-print(final_third_result)
+result_1_final = int(result_1[result_1.index(':') + 2:]) + 10
+result_2_final = int(result_2[result_2.index(':') + 2:]) + 10
+result_3_final = int(result_3[result_3.index(':') + 2:]) + 10
+print(result_1_final, result_2_final, result_3_final)
 
 
 students = ['Ivanov', 'Petrov', 'Sidorov']
 students_str = ', '.join(students)
-print(students_str)
 subjects = ['math', 'biology', 'geography']
 subjects_str = ', '.join(subjects)
 
